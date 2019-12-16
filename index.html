@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" type="text/css"> 
+    <link href="css\styles.css" rel="stylesheet" type="text/css"> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js\daily.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Everyday</title>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top navbar-toggleable-sm navbar-dark bg-dark">
+                    <a class="navbar-brand mx-auto" href="#">Everyday</a>
+                </nav>
+            </header>
+        </section>
+
+        <section class="row">
+            <article class="mar col-3 ml-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img\daily.jpg" alt="Daily Card Image">
+                        <div class="card-body">
+                        <h5 class="card-title">My Daily Activity</h5>
+                        <p class="card-text">Fill in the Form everyday to increase Productivity</p>
+                        <button onclick="gotoGoogleForms()" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Daily Productivity</button>
+                        </div>
+                    </div>
+                <div class="modal w-100 fade" id="myModal"></div>            
+            </article>
+            
+        </section>
+        
+        <section class="mar">
+            <footer class="footer">
+                <div class="container">
+                  <span class="text-muted">&copy; Copyright under MIT License. All Rights Reserved</span>
+                </div>
+              </footer>
+        </section>    
+    </main>
+    
+
+    
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script>window.jQuery || document.write('<script src="css\node_modules\jquery\dist\jquery.slim.min.js"><\/script>')</script>
+     <script src="css\node_modules\popper.js\dist\popper.min.js"></script>
+     <script src="css\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+</body>
+</html>
