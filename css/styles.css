@@ -21,3 +21,16 @@
     position: relative;
 }
    */
+
+.img-card-area
+{
+    width: 286px;
+    height: 192px;
+}
+
+@media screen and (max-width: 767px) {
+    .img-card-area {
+      width: auto;
+      height: auto;
+    }
+  }

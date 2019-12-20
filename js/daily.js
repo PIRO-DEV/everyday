@@ -26,3 +26,8 @@ function gotoGoogleForms()
     document.getElementById("myModal").innerHTML = myModal;
     
 }
+
+function gotoUrgentTask()
+{
+    location.href = "urgent.html";
+}

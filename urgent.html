@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" type="text/css"> 
+    <link href="css\styles.css" rel="stylesheet" type="text/css"> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js\daily.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Everyday</title>
+</head>
+<body>
+    <main>
+            <section>
+                <header>
+                    <nav class="navbar navbar-expand-lg fixed-top navbar-toggleable-sm navbar-dark bg-dark">
+                        <a class="navbar-brand mx-auto" href="/">Everyday</a>
+                    </nav>
+                </header>
+            </section>
+            
+            <section class="row mar">
+                <article class="col-auto m-auto">
+                    <div class="card" style="width: auto;">
+                        <div class="card-body">
+                        <h5 class="card-title">My Daily Activity</h5>
+                        <p class="card-text">Fill in the Form everyday to increase Productivity</p>
+                        <form>
+                            
+                            <div class="form-group">
+                            <h6>Part of the Day</h6>
+                               <div class="input-group">
+                                    <div class="input-group-prepend input-group-text">
+                                        <input type="radio" name="pd">Early Morning&nbsp;
+                                        <input type="radio" name="pd">Morning&nbsp;
+                                        <input type="radio" name="pd">Afternoon&nbsp;
+                                        <input type="radio" name="pd">Evening&nbsp;
+                                        <input type="radio" name="pd">Night&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group"><input type="text" placeholder="Name of the Task" name="noft" id="noft" class="form-control"></div>
+                            <div class="form-group"><label for="cdate">Date:</label><input type="date" name="cdate" id="cdate" class="form-control"></div>
+                            <div class="form-group"><label for="cday">Day:</label><input type="text" name="cday" id="cday" list="days" class="form-control"></div>
+                            <div class="form-group"><label for="start">Start Time:</label><input type="time" name="stime" id="stime" class="form-control"></div>
+                            <div class="form-group"><label for="end">End Time:</label><input type="time" name="etime" id="etime" class="form-control"></div>
+                            <datalist id="days">
+                                <option>Sunday</option>
+                                <option>Monday</option>
+                                <option>Tuesday</option>
+                                <option>wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                                <option>Saturday</option>
+                            </datalist>
+                            <div class="form-group">
+                                <input type="submit" value="Submit" class="form-control btn btn-primary">
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </article>
+            </section>
+    
+    </main>
+</body>
+</html>
